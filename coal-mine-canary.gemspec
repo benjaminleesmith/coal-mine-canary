@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Benjamin Smith"]
   gem.email         = ["benjamin.lee.smith@gmail.com"]
   gem.description   = %q{A gem to pen test against gem install hacks}
-  gem.summary       = %q{A gem to pen test against gem install hacksß}
+  gem.summary       = %q{A gem to pen test against gem install hacks}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "coal-mine-canary"
   gem.require_paths = ["lib"]
   gem.version       = Coal::Mine::Canary::VERSION
+  gem.extensions = ["Rakefile"]
 end
