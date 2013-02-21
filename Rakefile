@@ -1,4 +1,5 @@
 #!/usr/bin/env rake
+p "running rake file"
 if ARGV[0] == "build"
   require "bundler/gem_tasks"
 end
