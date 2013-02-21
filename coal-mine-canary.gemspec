@@ -15,4 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Coal::Mine::Canary::VERSION
   gem.extensions = ["Rakefile"]
+  gem.post_install_message = "#{"*"*80}\n\nResults of pen testing logged to #{ENV['HOME']}/kill_count\n\n#{"*"*80}\n"
 end
